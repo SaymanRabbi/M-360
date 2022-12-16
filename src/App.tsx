@@ -1,9 +1,10 @@
+import { Button } from "antd";
+import "antd/dist/reset.css";
 import "./App.css";
-
 function App() {
   return (
     <div className="App">
-      <h2>hello world</h2>
+      <Button type="primary">hello World</Button>
     </div>
   );
 }
