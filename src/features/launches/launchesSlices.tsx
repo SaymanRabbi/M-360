@@ -8,7 +8,7 @@ const launchesSlice = createSlice({
   name: "launches",
   initialState,
   reducers: {
-    setLaunches(state, action) {
+    setLaunches(state: any, action) {
       state.launches = action.payload;
     },
   },
