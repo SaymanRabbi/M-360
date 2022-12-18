@@ -22,8 +22,11 @@ const Navbar = () => {
           defaultSelectedKeys={["1"]}
         >
           <Menu.Item key="0">launchTeamX</Menu.Item>
-          <Input.Search placeholder="input search text" enterButton />
-
+          <Input.Search
+            style={{ width: "60%" }}
+            placeholder="input search text"
+            enterButton
+          />
           <Menu.Item key="1">Home</Menu.Item>
           <Menu.Item key="2">Cart</Menu.Item>
           <Menu.Item key="3">Dashboard</Menu.Item>
